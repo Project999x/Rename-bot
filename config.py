@@ -78,7 +78,7 @@ USER_REPLY_TEXT = os.environ.get(
 )
 
 USER_REPLY_BUTTONS = [
-    [InlineKeyboardButton("❰ ×× SHIZUKA -//- ❱", url="https://t.me/shizukawachan")]
+    [InlineKeyboardButton("❰ ×× DD_FREE_DISHH -//- ❱", url="https://t.me/dd_free_dishh")]
 ]
 
 PREMIUM_MSG = """
@@ -101,7 +101,7 @@ You've reached the free limit of {free_limit} files!
 Contact admin to purchase premium!
 """
 
-OWNER_TAG = os.environ.get("OWNER_TAG", "shizukawachan")
+OWNER_TAG = os.environ.get("OWNER_TAG", "provider_og")
 
 # ═══════════════════════════════════════════════════════════════════════════════════
 # ⚙️ APP SETTINGS & CONFIGURATION
