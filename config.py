@@ -14,13 +14,13 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 # 🔐 BOT CREDENTIALS & API SETTINGS
 # ═══════════════════════════════════════════════════════════════════════════════════
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", ":-_rolk8_tdahjWCBo")
-APP_ID = int(os.environ.get("APP_ID", ""))
-API_ID = int(os.environ.get("APP_ID", ""))
-API_HASH = os.environ.get("API_HASH", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8044543440:AAGJDD5MCpQ7_3MEYkD-8ZAQqqSF87QzPic")
+APP_ID = int(os.environ.get("APP_ID", "21816206"))
+API_ID = int(os.environ.get("APP_ID", "21816206"))
+API_HASH = os.environ.get("API_HASH", "0a82243f31819a62df76947196fdaa0a")
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "7560922302"))
-OWNER_TAG = os.environ.get("OWNER_TAG", "shizukawachan")
+OWNER_ID = int(os.environ.get("OWNER_ID", "7645440087"))
+OWNER_TAG = os.environ.get("OWNER_TAG", "provider_og")
 ADMIN_LIST = os.environ.get("ADMINS", "").split()
 ADMINS = [int(admin) for admin in ADMIN_LIST if admin.isdigit()]
 ADMINS.append(OWNER_ID)
@@ -32,7 +32,7 @@ SAVE_CHAT = -1002728160601
 # ═══════════════════════════════════════════════════════════════════════════════════
 
 DB_URL = os.environ.get("DB_URL", "mongodb+.s42kf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DB_NAME", "Cluster064")
+DB_NAME = os.environ.get("DB_NAME", "billu")
 
 # ═══════════════════════════════════════════════════════════════════════════════════
 # 💎 PREMIUM SETTINGS
