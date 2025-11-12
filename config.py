@@ -78,7 +78,7 @@ USER_REPLY_TEXT = os.environ.get(
 )
 
 USER_REPLY_BUTTONS = [
-    [InlineKeyboardButton("❰ ×× NSFW MEGA -//- ❱", url="https://t.me/Nsfw_Mega
+    [InlineKeyboardButton("❰ ×× NSFW MEGA -//- ❱", url="https://t.me/Nsfw_Mega")]
 
 PREMIUM_MSG = """
 💎 **PREMIUM REQUIRED**
@@ -130,4 +130,5 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
+
 
