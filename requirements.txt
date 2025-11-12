@@ -3,7 +3,7 @@ tgcrypto
 pyromod==1.5
 aiohttp
 nest_asyncio
-# tenacity==8.2.2
+# tenacity==8.2.3
 
 # MEGA.NZ - Install crypto in correct order
 pycryptodome>=3.15.0
@@ -23,3 +23,4 @@ dnspython
 # Other utils
 requests
 aiofiles
+
