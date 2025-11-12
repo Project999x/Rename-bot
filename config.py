@@ -14,14 +14,14 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 # 🔐 BOT CREDENTIALS & API SETTINGS
 # ═══════════════════════════════════════════════════════════════════════════════════
 
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8044543440:AAGJDD5MCpQ7_3MEYkD-8ZAQqqSF87QzPic")
-APP_ID = int(os.environ.get("APP_ID", "21816206"))
-API_ID = int(os.environ.get("APP_ID", "21816206"))
-API_HASH = os.environ.get("API_HASH", "0a82243f31819a62df76947196fdaa0a")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7727434404:AAF3w1kpbhMglVzDoKLlrnwJQaBkHgBemwg")
+APP_ID = int(os.environ.get("APP_ID", "19822764"))
+API_ID = int(os.environ.get("APP_ID", "19822764"))
+API_HASH = os.environ.get("API_HASH", "b240e413364b8608a542a7cafc6903be")
 
-OWNER_ID = int(os.environ.get("OWNER_ID", "7645440087"))
-OWNER_TAG = os.environ.get("OWNER_TAG", "provider_og")
-ADMIN_LIST = os.environ.get("ADMINS", "").split()
+OWNER_ID = int(os.environ.get("OWNER_ID", "1418213560"))
+OWNER_TAG = os.environ.get("OWNER_TAG", "WhiteBeard_Sama")
+ADMIN_LIST = os.environ.get("ADMINS", "6641848955").split()
 ADMINS = [int(admin) for admin in ADMIN_LIST if admin.isdigit()]
 ADMINS.append(OWNER_ID)
 
@@ -31,8 +31,8 @@ SAVE_CHAT = -1002728160601
 # 🗄️ DATABASE SETTINGS
 # ═══════════════════════════════════════════════════════════════════════════════════
 
-DB_URL = os.environ.get("DB_URL", "mongodb+.s42kf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DB_NAME", "billu")
+DB_URL = os.environ.get("DB_URL", "mongodb+srv://kaido0099878:XR5TnmaT55neAJ2U@cluster0.ksifz.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DB_NAME", "Denial_Chudakr_bot")
 
 # ═══════════════════════════════════════════════════════════════════════════════════
 # 💎 PREMIUM SETTINGS
@@ -78,8 +78,7 @@ USER_REPLY_TEXT = os.environ.get(
 )
 
 USER_REPLY_BUTTONS = [
-    [InlineKeyboardButton("❰ ×× DD_FREE_DISHH -//- ❱", url="https://t.me/dd_free_dishh")]
-]
+    [InlineKeyboardButton("❰ ×× NSFW MEGA -//- ❱", url="https://t.me/Nsfw_Mega
 
 PREMIUM_MSG = """
 💎 **PREMIUM REQUIRED**
@@ -101,7 +100,7 @@ You've reached the free limit of {free_limit} files!
 Contact admin to purchase premium!
 """
 
-OWNER_TAG = os.environ.get("OWNER_TAG", "provider_og")
+OWNER_TAG = os.environ.get("OWNER_TAG", "WhiteBeard_Sama")
 
 # ═══════════════════════════════════════════════════════════════════════════════════
 # ⚙️ APP SETTINGS & CONFIGURATION
@@ -131,3 +130,4 @@ logging.getLogger("pyrogram").setLevel(logging.WARNING)
 
 def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
+
